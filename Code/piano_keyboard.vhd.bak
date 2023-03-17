@@ -1,0 +1,92 @@
+library ieee;
+
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+ 
+
+entity piano_keyboard is
+
+port (clk:in std_logic;
+flag_in:in std_logic;
+
+EN_in:in std_logic;   --ʹ�ܶ�
+
+esc:out std_logic; --��ʹ�ܶ˿���
+flag_out:out std_logic;
+
+keyboard:in std_logic_vector(7 downto 0);  --���̰�λ����
+
+music:out std_logic_vector (20 downto 0);  --�ӷ���ģ��
+
+
+num_1:out std_logic;							--������ģʽ
+
+num_2:out std_logic ;
+
+space,enter: out std_logic
+);                 --�Զ�����ģʽ		--ģʽѡ������,��ģ��ʹ�ܶ�
+
+ --
+
+end entity;
+
+architecture behav of piano_keyboard is
+
+signal kb : std_logic_vector(0 to 25);
+signal lever:std_logic;
+
+
+begin
+com:process(En_in,clk)
+
+
+begin
+if En_in='0' then    --reset, to mod_piano
+	kb <= "00000000000000000000000000";
+else
+	if keyboard=x"F0" then flag_out<='1';
+	else flag_out<='0';
+	   if clk'event and clk='1' then
+		if flag_in='1' then lever<='0';
+	   else lever<='1';
+	   end if;
+		case keyboard is
+			when "00011010" => kb(0)<=lever;--Z				
+			when "00100010" => kb(1)<=lever;--X
+			when "00100001" => kb(2)<=lever;--C
+			when "00101010" => kb(3)<=lever;--v
+			when "00110010" => kb(4)<=lever;--b
+			when "00110001" => kb(5)<=lever;--N
+			when "00111010" => kb(6)<=lever;--M
+			when "00011100" => kb(7)<=lever;--
+			when x"1B" => kb(8)<=lever;
+			when "00100011" => kb(9)<=lever;
+			when "00101011" => kb(10)<=lever;
+			when "00110100" => kb(11)<=lever;
+			when "00110011" => kb(12)<=lever;
+			when "00111011" => kb(13)<=lever;
+			when "00010101" => kb(14)<=lever;
+			when "00011101" => kb(15)<=lever;
+			when "00100100" => kb(16)<=lever;
+			when "00101101" => kb(17)<=lever;
+			when "00101100" => kb(18)<=lever;
+			when "00110101" => kb(19)<=lever;
+			when "00111100" => kb(20)<=lever;
+			when "01110110" => kb(21)<=lever;--esc
+			when "00010110" => kb(22)<=lever;--1
+			when x"1E" => kb(23)<=lever;--2
+			when "00101001" => kb(24)<=lever;--space
+			when "01011010" => kb(25)<=lever;--enter
+			when others => NULL;	
+		end case;
+		end if;
+  end if;
+end if;
+end process;
+music<=kb(0 to 20);
+esc<=kb(21);
+num_1<=kb(22);
+num_2<=kb(23);
+space<=kb(24);
+enter<=kb(25);
+end behav;

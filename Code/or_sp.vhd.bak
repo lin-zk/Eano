@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity or_sp is
+port(music:in std_logic_vector(0 to 20);
+     rst:in std_logic;
+	  or_out:out std_logic);
+end entity or_sp;
+architecture behav of or_sp is
+signal music_or:std_logic;
+begin
+  music_or <= '0' when music="000000000000000000000" else
+              '1';
+  or_out <= music_or or rst;
+end architecture behav;

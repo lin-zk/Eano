@@ -1,0 +1,9 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity mus_fre_ctrl is
+port(tar:out std_logic_vector(2 downto 0));
+end entity mus_fre_ctrl;
+architecture behav of mus_fre_ctrl is
+begin
+  tar <="100";
+end architecture behav;

@@ -1,0 +1,1361 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'delay:inst66|de_out'
+Slack : -15.697
+TNS   : -247.104
+
+Type  : Slow 1200mV 85C Model Setup 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -14.644
+TNS   : -544.485
+
+Type  : Slow 1200mV 85C Model Setup 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -14.160
+TNS   : -544.702
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_1280x720:inst54|x[3]'
+Slack : -13.955
+TNS   : -218.086
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_1280x720:inst54|x[0]'
+Slack : -12.764
+TNS   : -194.851
+
+Type  : Slow 1200mV 85C Model Setup 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : -11.958
+TNS   : -68.988
+
+Type  : Slow 1200mV 85C Model Setup 'clock_fix:inst60|clk_fix'
+Slack : -6.150
+TNS   : -24.200
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.919
+TNS   : -772.871
+
+Type  : Slow 1200mV 85C Model Setup 'SEGclkf:inst34|clk_fix'
+Slack : -5.182
+TNS   : -35.795
+
+Type  : Slow 1200mV 85C Model Setup 'key2spring:inst4|con'
+Slack : -5.017
+TNS   : -38.425
+
+Type  : Slow 1200mV 85C Model Setup 'clock_music:inst21|clk_mus'
+Slack : -2.362
+TNS   : -26.711
+
+Type  : Slow 1200mV 85C Model Setup 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -2.327
+TNS   : -47.920
+
+Type  : Slow 1200mV 85C Model Setup 'key2swich:inst56|swich_state'
+Slack : -1.845
+TNS   : -3.193
+
+Type  : Slow 1200mV 85C Model Setup 'ps2_keyboard_driver:inst70|negedge'
+Slack : -1.679
+TNS   : -15.211
+
+Type  : Slow 1200mV 85C Model Setup 'ps2_keyboard_driver:inst70|load'
+Slack : -1.194
+TNS   : -1.194
+
+Type  : Slow 1200mV 85C Model Setup 'timer:inst31|pluse_minone'
+Slack : -1.092
+TNS   : -3.592
+
+Type  : Slow 1200mV 85C Model Setup 'keycheck:inst19|clk_5ms'
+Slack : -1.031
+TNS   : -1.751
+
+Type  : Slow 1200mV 85C Model Setup 'timer:inst31|pluse_secten'
+Slack : -0.940
+TNS   : -3.710
+
+Type  : Slow 1200mV 85C Model Setup 'timer:inst31|pluse_secone'
+Slack : -0.859
+TNS   : -2.227
+
+Type  : Slow 1200mV 85C Model Setup 'clock_fix:inst52|clk_fix'
+Slack : -0.786
+TNS   : -2.799
+
+Type  : Slow 1200mV 85C Model Setup 'piano_keyboard:inst80|kb[21]'
+Slack : -0.541
+TNS   : -0.541
+
+Type  : Slow 1200mV 85C Model Setup 'key2click:inst28|button_neg'
+Slack : -0.264
+TNS   : -0.264
+
+Type  : Slow 1200mV 85C Model Setup 'keycheck:inst17|clk_5ms'
+Slack : 0.088
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'click2scroll:inst35|choose[0]'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'click2scroll:inst35|choose[1]'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_1280x720:inst54|x[3]'
+Slack : -2.737
+TNS   : -7.397
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_1280x720:inst54|x[0]'
+Slack : -2.342
+TNS   : -5.442
+
+Type  : Slow 1200mV 85C Model Hold 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.700
+TNS   : -14.044
+
+Type  : Slow 1200mV 85C Model Hold 'SEGclkf:inst34|clk_fix'
+Slack : -0.262
+TNS   : -0.262
+
+Type  : Slow 1200mV 85C Model Hold 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.212
+TNS   : -1.835
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.009
+TNS   : -0.009
+
+Type  : Slow 1200mV 85C Model Hold 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'key2click:inst28|button_neg'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_fix:inst60|clk_fix'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ps2_keyboard_driver:inst70|negedge'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_fix:inst52|clk_fix'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'timer:inst31|pluse_minone'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'timer:inst31|pluse_secone'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'timer:inst31|pluse_secten'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'click2scroll:inst35|choose[0]'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'click2scroll:inst35|choose[1]'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clock_music:inst21|clk_mus'
+Slack : 0.508
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'keycheck:inst19|clk_5ms'
+Slack : 0.529
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'keycheck:inst17|clk_5ms'
+Slack : 0.530
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'key2spring:inst4|con'
+Slack : 0.571
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'delay:inst66|de_out'
+Slack : 0.697
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'key2swich:inst56|swich_state'
+Slack : 0.937
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'piano_keyboard:inst80|kb[21]'
+Slack : 0.961
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ps2_keyboard_driver:inst70|load'
+Slack : 1.692
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : 2.610
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -7.217
+TNS   : -341.291
+
+Type  : Slow 1200mV 85C Model Recovery 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -7.024
+TNS   : -340.991
+
+Type  : Slow 1200mV 85C Model Recovery 'ps2_keyboard_driver:inst70|negedge'
+Slack : -4.543
+TNS   : -58.213
+
+Type  : Slow 1200mV 85C Model Recovery 'clock_fix:inst52|clk_fix'
+Slack : -4.075
+TNS   : -20.047
+
+Type  : Slow 1200mV 85C Model Recovery 'piano_keyboard:inst80|kb[21]'
+Slack : -3.881
+TNS   : -3.881
+
+Type  : Slow 1200mV 85C Model Recovery 'clock_fix:inst60|clk_fix'
+Slack : -3.770
+TNS   : -24.389
+
+Type  : Slow 1200mV 85C Model Recovery 'timer:inst31|pluse_minone'
+Slack : -3.435
+TNS   : -13.740
+
+Type  : Slow 1200mV 85C Model Recovery 'timer:inst31|pluse_secone'
+Slack : -3.308
+TNS   : -12.605
+
+Type  : Slow 1200mV 85C Model Recovery 'timer:inst31|pluse_secten'
+Slack : -3.208
+TNS   : -15.855
+
+Type  : Slow 1200mV 85C Model Recovery 'key2click:inst28|button_neg'
+Slack : -3.054
+TNS   : -3.054
+
+Type  : Slow 1200mV 85C Model Recovery 'keycheck:inst19|clk_5ms'
+Slack : -2.766
+TNS   : -19.582
+
+Type  : Slow 1200mV 85C Model Recovery 'keycheck:inst17|clk_5ms'
+Slack : -2.099
+TNS   : -4.198
+
+Type  : Slow 1200mV 85C Model Recovery 'click2scroll:inst35|choose[1]'
+Slack : -1.678
+TNS   : -1.678
+
+Type  : Slow 1200mV 85C Model Recovery 'click2scroll:inst35|choose[0]'
+Slack : -1.625
+TNS   : -1.625
+
+Type  : Slow 1200mV 85C Model Recovery 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -1.535
+TNS   : -37.160
+
+Type  : Slow 1200mV 85C Model Recovery 'clk'
+Slack : -1.484
+TNS   : -59.673
+
+Type  : Slow 1200mV 85C Model Recovery 'SEGclkf:inst34|clk_fix'
+Slack : -1.395
+TNS   : -9.776
+
+Type  : Slow 1200mV 85C Model Recovery 'clock_music:inst21|clk_mus'
+Slack : -0.578
+TNS   : -0.578
+
+Type  : Slow 1200mV 85C Model Recovery 'key2spring:inst4|con'
+Slack : -0.368
+TNS   : -1.658
+
+Type  : Slow 1200mV 85C Model Removal 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -0.365
+TNS   : -0.365
+
+Type  : Slow 1200mV 85C Model Removal 'key2click:inst28|button_neg'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'key2spring:inst4|con'
+Slack : 0.596
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'timer:inst31|pluse_secone'
+Slack : 0.612
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'piano_keyboard:inst80|kb[21]'
+Slack : 0.877
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clk'
+Slack : 0.918
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'timer:inst31|pluse_secten'
+Slack : 0.963
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clock_music:inst21|clk_mus'
+Slack : 0.986
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ps2_keyboard_driver:inst70|negedge'
+Slack : 1.113
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SEGclkf:inst34|clk_fix'
+Slack : 1.396
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'timer:inst31|pluse_minone'
+Slack : 1.520
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'click2scroll:inst35|choose[0]'
+Slack : 1.849
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clock_fix:inst52|clk_fix'
+Slack : 1.971
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'click2scroll:inst35|choose[1]'
+Slack : 2.092
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'keycheck:inst17|clk_5ms'
+Slack : 2.522
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'keycheck:inst19|clk_5ms'
+Slack : 2.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'clock_fix:inst60|clk_fix'
+Slack : 3.571
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.823
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 5.277
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -1.487
+TNS   : -90.707
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_music:inst21|clk_mus'
+Slack : -1.487
+TNS   : -63.941
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'key2spring:inst4|con'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ps2_keyboard_driver:inst70|negedge'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SEGclkf:inst34|clk_fix'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'keycheck:inst19|clk_5ms'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_fix:inst60|clk_fix'
+Slack : -1.487
+TNS   : -10.409
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock_fix:inst52|clk_fix'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'timer:inst31|pluse_secten'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'timer:inst31|pluse_minone'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'timer:inst31|pluse_secone'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'keycheck:inst17|clk_5ms'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'key2click:inst28|button_neg'
+Slack : -1.487
+TNS   : -1.490
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'click2scroll:inst35|choose[0]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'click2scroll:inst35|choose[1]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'piano_keyboard:inst80|kb[21]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ps2_keyboard_driver:inst70|load'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_1280x720:inst54|x[3]'
+Slack : 0.218
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'key2swich:inst56|swich_state'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'delay:inst66|de_out'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_1280x720:inst54|x[0]'
+Slack : 0.351
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : 0.437
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.535
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.662
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'delay:inst66|de_out'
+Slack : -15.016
+TNS   : -235.418
+
+Type  : Slow 1200mV 0C Model Setup 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -13.828
+TNS   : -508.161
+
+Type  : Slow 1200mV 0C Model Setup 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -13.366
+TNS   : -506.728
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_1280x720:inst54|x[3]'
+Slack : -13.334
+TNS   : -207.202
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_1280x720:inst54|x[0]'
+Slack : -12.277
+TNS   : -186.745
+
+Type  : Slow 1200mV 0C Model Setup 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : -11.278
+TNS   : -64.715
+
+Type  : Slow 1200mV 0C Model Setup 'clock_fix:inst60|clk_fix'
+Slack : -5.641
+TNS   : -21.999
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -5.518
+TNS   : -720.113
+
+Type  : Slow 1200mV 0C Model Setup 'SEGclkf:inst34|clk_fix'
+Slack : -4.691
+TNS   : -32.977
+
+Type  : Slow 1200mV 0C Model Setup 'key2spring:inst4|con'
+Slack : -4.645
+TNS   : -34.817
+
+Type  : Slow 1200mV 0C Model Setup 'clock_music:inst21|clk_mus'
+Slack : -2.134
+TNS   : -24.255
+
+Type  : Slow 1200mV 0C Model Setup 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -2.091
+TNS   : -41.875
+
+Type  : Slow 1200mV 0C Model Setup 'key2swich:inst56|swich_state'
+Slack : -1.727
+TNS   : -2.886
+
+Type  : Slow 1200mV 0C Model Setup 'ps2_keyboard_driver:inst70|negedge'
+Slack : -1.507
+TNS   : -12.853
+
+Type  : Slow 1200mV 0C Model Setup 'ps2_keyboard_driver:inst70|load'
+Slack : -1.061
+TNS   : -1.061
+
+Type  : Slow 1200mV 0C Model Setup 'timer:inst31|pluse_minone'
+Slack : -0.887
+TNS   : -2.847
+
+Type  : Slow 1200mV 0C Model Setup 'timer:inst31|pluse_secten'
+Slack : -0.824
+TNS   : -3.146
+
+Type  : Slow 1200mV 0C Model Setup 'keycheck:inst19|clk_5ms'
+Slack : -0.785
+TNS   : -1.298
+
+Type  : Slow 1200mV 0C Model Setup 'timer:inst31|pluse_secone'
+Slack : -0.754
+TNS   : -1.788
+
+Type  : Slow 1200mV 0C Model Setup 'clock_fix:inst52|clk_fix'
+Slack : -0.639
+TNS   : -2.130
+
+Type  : Slow 1200mV 0C Model Setup 'piano_keyboard:inst80|kb[21]'
+Slack : -0.416
+TNS   : -0.416
+
+Type  : Slow 1200mV 0C Model Setup 'key2click:inst28|button_neg'
+Slack : -0.174
+TNS   : -0.174
+
+Type  : Slow 1200mV 0C Model Setup 'keycheck:inst17|clk_5ms'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'click2scroll:inst35|choose[0]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'click2scroll:inst35|choose[1]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_1280x720:inst54|x[3]'
+Slack : -2.323
+TNS   : -6.851
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_1280x720:inst54|x[0]'
+Slack : -1.971
+TNS   : -5.111
+
+Type  : Slow 1200mV 0C Model Hold 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.902
+TNS   : -25.981
+
+Type  : Slow 1200mV 0C Model Hold 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.440
+TNS   : -5.838
+
+Type  : Slow 1200mV 0C Model Hold 'SEGclkf:inst34|clk_fix'
+Slack : -0.249
+TNS   : -0.249
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : -0.048
+TNS   : -0.048
+
+Type  : Slow 1200mV 0C Model Hold 'key2click:inst28|button_neg'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_fix:inst60|clk_fix'
+Slack : 0.370
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ps2_keyboard_driver:inst70|negedge'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_fix:inst52|clk_fix'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'timer:inst31|pluse_minone'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'timer:inst31|pluse_secone'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'timer:inst31|pluse_secten'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'click2scroll:inst35|choose[0]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'click2scroll:inst35|choose[1]'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'key2spring:inst4|con'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clock_music:inst21|clk_mus'
+Slack : 0.477
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'keycheck:inst19|clk_5ms'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'keycheck:inst17|clk_5ms'
+Slack : 0.495
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'delay:inst66|de_out'
+Slack : 0.862
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'key2swich:inst56|swich_state'
+Slack : 0.872
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'piano_keyboard:inst80|kb[21]'
+Slack : 0.876
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ps2_keyboard_driver:inst70|load'
+Slack : 1.604
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : 2.454
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.594
+TNS   : -310.957
+
+Type  : Slow 1200mV 0C Model Recovery 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -6.385
+TNS   : -309.255
+
+Type  : Slow 1200mV 0C Model Recovery 'ps2_keyboard_driver:inst70|negedge'
+Slack : -4.250
+TNS   : -54.058
+
+Type  : Slow 1200mV 0C Model Recovery 'clock_fix:inst52|clk_fix'
+Slack : -3.721
+TNS   : -18.284
+
+Type  : Slow 1200mV 0C Model Recovery 'piano_keyboard:inst80|kb[21]'
+Slack : -3.480
+TNS   : -3.480
+
+Type  : Slow 1200mV 0C Model Recovery 'clock_fix:inst60|clk_fix'
+Slack : -3.425
+TNS   : -21.983
+
+Type  : Slow 1200mV 0C Model Recovery 'timer:inst31|pluse_minone'
+Slack : -3.066
+TNS   : -12.264
+
+Type  : Slow 1200mV 0C Model Recovery 'timer:inst31|pluse_secone'
+Slack : -2.960
+TNS   : -11.240
+
+Type  : Slow 1200mV 0C Model Recovery 'timer:inst31|pluse_secten'
+Slack : -2.873
+TNS   : -14.173
+
+Type  : Slow 1200mV 0C Model Recovery 'key2click:inst28|button_neg'
+Slack : -2.793
+TNS   : -2.793
+
+Type  : Slow 1200mV 0C Model Recovery 'keycheck:inst19|clk_5ms'
+Slack : -2.437
+TNS   : -16.892
+
+Type  : Slow 1200mV 0C Model Recovery 'keycheck:inst17|clk_5ms'
+Slack : -1.784
+TNS   : -3.568
+
+Type  : Slow 1200mV 0C Model Recovery 'click2scroll:inst35|choose[0]'
+Slack : -1.475
+TNS   : -1.475
+
+Type  : Slow 1200mV 0C Model Recovery 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -1.388
+TNS   : -29.979
+
+Type  : Slow 1200mV 0C Model Recovery 'click2scroll:inst35|choose[1]'
+Slack : -1.362
+TNS   : -1.362
+
+Type  : Slow 1200mV 0C Model Recovery 'clk'
+Slack : -1.331
+TNS   : -54.564
+
+Type  : Slow 1200mV 0C Model Recovery 'SEGclkf:inst34|clk_fix'
+Slack : -1.206
+TNS   : -7.950
+
+Type  : Slow 1200mV 0C Model Recovery 'clock_music:inst21|clk_mus'
+Slack : -0.530
+TNS   : -0.530
+
+Type  : Slow 1200mV 0C Model Recovery 'key2spring:inst4|con'
+Slack : -0.303
+TNS   : -1.353
+
+Type  : Slow 1200mV 0C Model Removal 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -0.259
+TNS   : -0.259
+
+Type  : Slow 1200mV 0C Model Removal 'key2click:inst28|button_neg'
+Slack : 0.332
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'key2spring:inst4|con'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'timer:inst31|pluse_secone'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'piano_keyboard:inst80|kb[21]'
+Slack : 0.724
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clk'
+Slack : 0.797
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'timer:inst31|pluse_secten'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clock_music:inst21|clk_mus'
+Slack : 0.911
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ps2_keyboard_driver:inst70|negedge'
+Slack : 0.923
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SEGclkf:inst34|clk_fix'
+Slack : 1.191
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'timer:inst31|pluse_minone'
+Slack : 1.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'click2scroll:inst35|choose[0]'
+Slack : 1.673
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clock_fix:inst52|clk_fix'
+Slack : 1.804
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'click2scroll:inst35|choose[1]'
+Slack : 1.810
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'keycheck:inst17|clk_5ms'
+Slack : 2.268
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'keycheck:inst19|clk_5ms'
+Slack : 2.297
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'clock_fix:inst60|clk_fix'
+Slack : 3.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 4.299
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 4.685
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -1.487
+TNS   : -90.707
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_music:inst21|clk_mus'
+Slack : -1.487
+TNS   : -63.941
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'key2spring:inst4|con'
+Slack : -1.487
+TNS   : -19.620
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ps2_keyboard_driver:inst70|negedge'
+Slack : -1.487
+TNS   : -19.331
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SEGclkf:inst34|clk_fix'
+Slack : -1.487
+TNS   : -14.870
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'keycheck:inst19|clk_5ms'
+Slack : -1.487
+TNS   : -11.896
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_fix:inst60|clk_fix'
+Slack : -1.487
+TNS   : -10.409
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock_fix:inst52|clk_fix'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'timer:inst31|pluse_secten'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'timer:inst31|pluse_minone'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'timer:inst31|pluse_secone'
+Slack : -1.487
+TNS   : -5.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'keycheck:inst17|clk_5ms'
+Slack : -1.487
+TNS   : -2.974
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'key2click:inst28|button_neg'
+Slack : -1.487
+TNS   : -1.517
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'click2scroll:inst35|choose[1]'
+Slack : -1.487
+TNS   : -1.493
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'click2scroll:inst35|choose[0]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'piano_keyboard:inst80|kb[21]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ps2_keyboard_driver:inst70|load'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_1280x720:inst54|x[3]'
+Slack : -0.062
+TNS   : -0.094
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'delay:inst66|de_out'
+Slack : 0.104
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'key2swich:inst56|swich_state'
+Slack : 0.246
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_1280x720:inst54|x[0]'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.535
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.159
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.595
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -6.594
+TNS   : -248.102
+
+Type  : Fast 1200mV 0C Model Setup 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -6.416
+TNS   : -251.551
+
+Type  : Fast 1200mV 0C Model Setup 'delay:inst66|de_out'
+Slack : -6.346
+TNS   : -99.359
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_1280x720:inst54|x[3]'
+Slack : -6.066
+TNS   : -94.117
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_1280x720:inst54|x[0]'
+Slack : -5.156
+TNS   : -78.277
+
+Type  : Fast 1200mV 0C Model Setup 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : -5.155
+TNS   : -29.351
+
+Type  : Fast 1200mV 0C Model Setup 'clock_fix:inst60|clk_fix'
+Slack : -2.213
+TNS   : -8.528
+
+Type  : Fast 1200mV 0C Model Setup 'SEGclkf:inst34|clk_fix'
+Slack : -2.001
+TNS   : -13.387
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.991
+TNS   : -96.695
+
+Type  : Fast 1200mV 0C Model Setup 'key2spring:inst4|con'
+Slack : -1.577
+TNS   : -9.169
+
+Type  : Fast 1200mV 0C Model Setup 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -0.467
+TNS   : -3.213
+
+Type  : Fast 1200mV 0C Model Setup 'clock_music:inst21|clk_mus'
+Slack : -0.451
+TNS   : -0.451
+
+Type  : Fast 1200mV 0C Model Setup 'key2swich:inst56|swich_state'
+Slack : -0.401
+TNS   : -0.411
+
+Type  : Fast 1200mV 0C Model Setup 'clock_fix:inst52|clk_fix'
+Slack : -0.226
+TNS   : -0.226
+
+Type  : Fast 1200mV 0C Model Setup 'ps2_keyboard_driver:inst70|load'
+Slack : -0.214
+TNS   : -0.214
+
+Type  : Fast 1200mV 0C Model Setup 'ps2_keyboard_driver:inst70|negedge'
+Slack : -0.202
+TNS   : -0.913
+
+Type  : Fast 1200mV 0C Model Setup 'timer:inst31|pluse_minone'
+Slack : -0.104
+TNS   : -0.329
+
+Type  : Fast 1200mV 0C Model Setup 'timer:inst31|pluse_secten'
+Slack : -0.052
+TNS   : -0.208
+
+Type  : Fast 1200mV 0C Model Setup 'timer:inst31|pluse_secone'
+Slack : -0.022
+TNS   : -0.044
+
+Type  : Fast 1200mV 0C Model Setup 'keycheck:inst19|clk_5ms'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'key2click:inst28|button_neg'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'piano_keyboard:inst80|kb[21]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'keycheck:inst17|clk_5ms'
+Slack : 0.611
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'click2scroll:inst35|choose[0]'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'click2scroll:inst35|choose[1]'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_1280x720:inst54|x[3]'
+Slack : -1.579
+TNS   : -7.958
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_1280x720:inst54|x[0]'
+Slack : -1.404
+TNS   : -5.158
+
+Type  : Fast 1200mV 0C Model Hold 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.248
+TNS   : -3.295
+
+Type  : Fast 1200mV 0C Model Hold 'SEGclkf:inst34|clk_fix'
+Slack : -0.235
+TNS   : -0.235
+
+Type  : Fast 1200mV 0C Model Hold 'delay:inst66|de_out'
+Slack : -0.168
+TNS   : -0.168
+
+Type  : Fast 1200mV 0C Model Hold 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.067
+TNS   : -0.369
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.014
+TNS   : -0.019
+
+Type  : Fast 1200mV 0C Model Hold 'key2click:inst28|button_neg'
+Slack : 0.103
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_fix:inst60|clk_fix'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ps2_keyboard_driver:inst70|negedge'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_music:inst21|clk_mus'
+Slack : 0.197
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clock_fix:inst52|clk_fix'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'timer:inst31|pluse_minone'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'timer:inst31|pluse_secone'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'timer:inst31|pluse_secten'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'key2spring:inst4|con'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'keycheck:inst17|clk_5ms'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'keycheck:inst19|clk_5ms'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'click2scroll:inst35|choose[0]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'click2scroll:inst35|choose[1]'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'key2swich:inst56|swich_state'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'piano_keyboard:inst80|kb[21]'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ps2_keyboard_driver:inst70|load'
+Slack : 0.976
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : 1.143
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -3.363
+TNS   : -160.158
+
+Type  : Fast 1200mV 0C Model Recovery 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.165
+TNS   : -154.357
+
+Type  : Fast 1200mV 0C Model Recovery 'ps2_keyboard_driver:inst70|negedge'
+Slack : -1.869
+TNS   : -23.554
+
+Type  : Fast 1200mV 0C Model Recovery 'clock_fix:inst52|clk_fix'
+Slack : -1.436
+TNS   : -6.974
+
+Type  : Fast 1200mV 0C Model Recovery 'piano_keyboard:inst80|kb[21]'
+Slack : -1.410
+TNS   : -1.410
+
+Type  : Fast 1200mV 0C Model Recovery 'key2click:inst28|button_neg'
+Slack : -1.319
+TNS   : -1.319
+
+Type  : Fast 1200mV 0C Model Recovery 'timer:inst31|pluse_minone'
+Slack : -1.134
+TNS   : -4.536
+
+Type  : Fast 1200mV 0C Model Recovery 'timer:inst31|pluse_secone'
+Slack : -1.095
+TNS   : -4.152
+
+Type  : Fast 1200mV 0C Model Recovery 'clock_fix:inst60|clk_fix'
+Slack : -1.090
+TNS   : -6.643
+
+Type  : Fast 1200mV 0C Model Recovery 'timer:inst31|pluse_secten'
+Slack : -1.028
+TNS   : -5.056
+
+Type  : Fast 1200mV 0C Model Recovery 'keycheck:inst19|clk_5ms'
+Slack : -0.891
+TNS   : -5.844
+
+Type  : Fast 1200mV 0C Model Recovery 'click2scroll:inst35|choose[0]'
+Slack : -0.628
+TNS   : -0.628
+
+Type  : Fast 1200mV 0C Model Recovery 'keycheck:inst17|clk_5ms'
+Slack : -0.509
+TNS   : -1.018
+
+Type  : Fast 1200mV 0C Model Recovery 'click2scroll:inst35|choose[1]'
+Slack : -0.437
+TNS   : -0.437
+
+Type  : Fast 1200mV 0C Model Recovery 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -0.348
+TNS   : -7.737
+
+Type  : Fast 1200mV 0C Model Recovery 'SEGclkf:inst34|clk_fix'
+Slack : -0.275
+TNS   : -1.941
+
+Type  : Fast 1200mV 0C Model Recovery 'clk'
+Slack : -0.267
+TNS   : -6.752
+
+Type  : Fast 1200mV 0C Model Recovery 'clock_music:inst21|clk_mus'
+Slack : 0.265
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'key2spring:inst4|con'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -0.217
+TNS   : -0.217
+
+Type  : Fast 1200mV 0C Model Removal 'key2spring:inst4|con'
+Slack : 0.211
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'key2click:inst28|button_neg'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clk'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'timer:inst31|pluse_secone'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clock_music:inst21|clk_mus'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'timer:inst31|pluse_secten'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'piano_keyboard:inst80|kb[21]'
+Slack : 0.502
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'timer:inst31|pluse_minone'
+Slack : 0.673
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SEGclkf:inst34|clk_fix'
+Slack : 0.681
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ps2_keyboard_driver:inst70|negedge'
+Slack : 0.701
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clock_fix:inst52|clk_fix'
+Slack : 0.902
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'click2scroll:inst35|choose[1]'
+Slack : 1.089
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'click2scroll:inst35|choose[0]'
+Slack : 1.171
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'keycheck:inst19|clk_5ms'
+Slack : 1.221
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'keycheck:inst17|clk_5ms'
+Slack : 1.226
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'clock_fix:inst60|clk_fix'
+Slack : 1.544
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.192
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 2.320
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SEG:inst15|SEGclk:b2v_inst4|clk_fix'
+Slack : -1.000
+TNS   : -61.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_music:inst21|clk_mus'
+Slack : -1.000
+TNS   : -43.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'key2spring:inst4|con'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ps2_keyboard_driver:inst70|negedge'
+Slack : -1.000
+TNS   : -13.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SEGclkf:inst34|clk_fix'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'keycheck:inst19|clk_5ms'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_fix:inst60|clk_fix'
+Slack : -1.000
+TNS   : -7.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock_fix:inst52|clk_fix'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'timer:inst31|pluse_secten'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'timer:inst31|pluse_minone'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'timer:inst31|pluse_secone'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'keycheck:inst17|clk_5ms'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'click2scroll:inst35|choose[0]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'click2scroll:inst35|choose[1]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'key2click:inst28|button_neg'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'piano_keyboard:inst80|kb[21]'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ps2_keyboard_driver:inst70|load'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_1280x720:inst54|x[3]'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'delay:inst66|de_out'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_1280x720:inst54|x[0]'
+Slack : 0.295
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'key2swich:inst56|swich_state'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SEG:inst15|SEGinpu:b2v_inst14|pst.s0'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'inst0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 2.975
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'inst0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 6.330
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.405
+TNS   : 0.000
+
+------------------------------------------------------------

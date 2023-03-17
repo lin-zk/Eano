@@ -1,0 +1,4 @@
+暂缺RTL：
+键盘相关模块RTL
+key2suound模块RTL
+Eano顶层RTL

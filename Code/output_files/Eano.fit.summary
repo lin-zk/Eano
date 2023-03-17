@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Feb 06 12:51:59 2023
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : Eano
+Top-level Entity Name : Eano
+Family : Cyclone IV E
+Device : EP4CE10F17C8
+Timing Models : Final
+Total logic elements : 3,470 / 10,320 ( 34 % )
+    Total combinational functions : 3,337 / 10,320 ( 32 % )
+    Dedicated logic registers : 904 / 10,320 ( 9 % )
+Total registers : 904
+Total pins : 108 / 180 ( 60 % )
+Total virtual pins : 0
+Total memory bits : 230,400 / 423,936 ( 54 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

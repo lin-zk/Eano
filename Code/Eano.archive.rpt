@@ -1,0 +1,153 @@
+Archive Project report for Eano
+Mon Feb 06 12:52:53 2023
+Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Mon Feb 06 12:52:53 2023 ;
+; Revision Name          ; Eano                                  ;
+; Top-level Entity Name  ; Eano                                  ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'Eano.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/intelfpga_lite/17.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4834 megabytes
+    Info: Processing ended: Mon Feb 06 12:52:53 2023
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+
++--------------------------------------------------------------+
+; Files Archived                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; auxiliary_tool/vgapicture.mif                                ;
+; click2scroll.bsf                                             ;
+; click2scroll.vhd                                             ;
+; click2vol.bsf                                                ;
+; click2vol.vhd                                                ;
+; clock_fix.bsf                                                ;
+; clock_fix.vhd                                                ;
+; clock_half.bsf                                               ;
+; clock_music.bsf                                              ;
+; clock_music.vhd                                              ;
+; d:/intelfpga_lite/17.1/quartus/bin64/assignment_defaults.qdf ;
+; delay.bsf                                                    ;
+; delay.vhd                                                    ;
+; Eano.bdf                                                     ;
+; Eano.jic                                                     ;
+; Eano.qpf                                                     ;
+; Eano.qsf                                                     ;
+; EanoPin.tcl                                                  ;
+; key2click.bsf                                                ;
+; key2click.vhd                                                ;
+; key2sound.bsf                                                ;
+; key2sound.vhd                                                ;
+; key2spring.bsf                                               ;
+; key2spring.vhd                                               ;
+; key2swich.bsf                                                ;
+; key2swich.vhd                                                ;
+; keycheck.bsf                                                 ;
+; keycheck.vhd                                                 ;
+; LED_modectrl.bsf                                             ;
+; LED_modectrl.vhd                                             ;
+; LEDmode.bsf                                                  ;
+; LEDmode.vhd                                                  ;
+; mus_fre_ctrl.bsf                                             ;
+; mus_fre_ctrl.vhd                                             ;
+; or_sp.bsf                                                    ;
+; or_sp.vhd                                                    ;
+; piano_keyboard.bsf                                           ;
+; piano_keyboard.vhd                                           ;
+; PLL.bsf                                                      ;
+; PLL.cmp                                                      ;
+; PLL.ppf                                                      ;
+; PLL.qip                                                      ;
+; PLL.vhd                                                      ;
+; ps2_keyboard_driver.bsf                                      ;
+; ps2_keyboard_driver.vhd                                      ;
+; ROM.bsf                                                      ;
+; ROM.cmp                                                      ;
+; ROM.qip                                                      ;
+; ROM.vhd                                                      ;
+; SEG.bsf                                                      ;
+; SEG.vhd                                                      ;
+; SEG_datactrl.bsf                                             ;
+; SEG_datactrl.vhd                                             ;
+; SEGclk.vhd                                                   ;
+; SEGclkf.bsf                                                  ;
+; SEGclkf.vhd                                                  ;
+; SEGdata.bsf                                                  ;
+; SEGdata.vhd                                                  ;
+; SEGdisp.bsf                                                  ;
+; SEGdisp.vhd                                                  ;
+; SEGflow.bsf                                                  ;
+; SEGflow.vhd                                                  ;
+; SEGinpu.bsf                                                  ;
+; SEGinpu.vhd                                                  ;
+; springdri.bsf                                                ;
+; springdri.vhd                                                ;
+; timer.bsf                                                    ;
+; timer.vhd                                                    ;
+; VGA_1280x720.bsf                                             ;
+; VGA_1280x720.vhd                                             ;
+; VGA_1920x1080.bsf                                            ;
+; VGA_1920x1080.vhd                                            ;
+; vga_address.bsf                                              ;
+; vga_address.vhd                                              ;
+; vga_color_out.bsf                                            ;
+; vga_color_out.vhd                                            ;
+; vga_mode.bsf                                                 ;
+; vga_mode.vhd                                                 ;
++--------------------------------------------------------------+
+
+

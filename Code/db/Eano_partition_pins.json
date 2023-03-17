@@ -1,0 +1,285 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "vga_out_hs",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_vs",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[7]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[8]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[9]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[10]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[11]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[12]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[13]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[14]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[15]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[16]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[17]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[18]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[19]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer_unit[20]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "light[0]",
+					"strict" : false
+				},
+				{
+					"name" : "light[1]",
+					"strict" : false
+				},
+				{
+					"name" : "light[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pumb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pumb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sel[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sel[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sel[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sel[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sel[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sel[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_g[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_g[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_g[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_g[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_g[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_g[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_r[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_r[3]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_r[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_r[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vga_out_r[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "Din",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "key2",
+					"strict" : false
+				},
+				{
+					"name" : "PS2_clk",
+					"strict" : false
+				},
+				{
+					"name" : "key4",
+					"strict" : false
+				},
+				{
+					"name" : "key3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

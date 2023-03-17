@@ -1,0 +1,89 @@
+Quartus Prime Archive log --	D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.qarlog
+
+Archive:	D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.qar
+Date:		Mon Feb 06 12:52:53 2023
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.bdf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.jic
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.qpf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/Eano.qsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/EanoPin.tcl
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/LED_modectrl.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/LED_modectrl.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/LEDmode.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/LEDmode.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/PLL.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/PLL.cmp
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/PLL.ppf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/PLL.qip
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/PLL.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/ROM.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/ROM.cmp
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/ROM.qip
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/ROM.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEG.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEG.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEG_datactrl.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEG_datactrl.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGclk.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGclkf.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGclkf.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGdata.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGdata.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGdisp.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGdisp.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGflow.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGflow.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGinpu.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/SEGinpu.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/VGA_1280x720.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/VGA_1280x720.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/VGA_1920x1080.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/VGA_1920x1080.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/auxiliary_tool/vgapicture.mif
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/click2scroll.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/click2scroll.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/click2vol.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/click2vol.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/clock_fix.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/clock_fix.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/clock_half.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/clock_music.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/clock_music.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/delay.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/delay.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2click.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2click.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2sound.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2sound.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2spring.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2spring.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2swich.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/key2swich.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/keycheck.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/keycheck.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/mus_fre_ctrl.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/mus_fre_ctrl.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/or_sp.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/or_sp.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/piano_keyboard.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/piano_keyboard.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/ps2_keyboard_driver.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/ps2_keyboard_driver.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/springdri.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/springdri.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/timer.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/timer.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/vga_address.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/vga_address.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/vga_color_out.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/vga_color_out.vhd
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/vga_mode.bsf
+D:/intelFPGA_lite/17.1/project/design_2022.12/Eano/vga_mode.vhd
+d:/intelfpga_lite/17.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 78 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,164 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+entity vga_mode is
+port(mode:in std_logic;
+     clk0,clk1:in std_logic;
+	  x0,y0,x1,y1: in integer range 0 to 200;
+	  key:in std_logic_vector(0 to 20);
+     vga_out_ram: in std_logic_vector(15 downto 0);
+	  load:in std_logic;
+     cho0,cho1:out std_logic;
+	  vga_clk:buffer std_logic;
+	  x,y:buffer integer range 0 to 200;
+	  vga_out:out std_logic_vector(15 downto 0));
+end entity vga_mode;
+architecture behav of vga_mode is
+signal chose:std_logic_vector(1 downto 0);
+signal vga_out_tmp:std_logic_vector(15 downto 0);
+
+constant key_w:std_logic_vector(15 downto 0):=x"FFFF";
+constant key_b:std_logic_vector(15 downto 0):=x"0000";
+constant key_c:std_logic_vector(15 downto 0):=x"E7FF";
+begin
+  chose <= "10" when mode='1'else
+           "01" when mode='0'else
+			  "00";
+  cho0 <= chose(0);
+  cho1 <= chose(1);
+  vga_clk <= clk1 when mode='1'else
+             clk0 when mode='0'else
+			    '0';
+  y <= y1+3 when mode='1'else
+       y0 when mode='0'else
+		 0;
+  x <= x1 when mode='1'else
+       x0 when mode='0'else
+		 0;
+rdcl:process(x,y)
+  begin
+    if load='1'then
+	   if y<=90 then
+	     if x<20 then
+		    vga_out_tmp <= x"FFFF";
+		  elsif x<2*20 then
+		    vga_out_tmp <= x"F800";
+		  elsif x<3*20 then
+		    vga_out_tmp <= x"F5E3";
+		  elsif x<4*20 then
+		    vga_out_tmp <= x"FFE0";
+		  elsif x<5*20 then
+		    vga_out_tmp <= x"07EF";
+		  elsif x<6*20 then
+		    vga_out_tmp <= x"07FF";
+		  elsif x<7*20 then
+		    vga_out_tmp <= x"867D";
+		  elsif x<8*20 then
+		    vga_out_tmp <= x"8010";
+		  else
+		    vga_out_tmp <= x"481F";
+		  end if;
+		else
+		  vga_out_tmp <= x"0000";
+		end if;
+	 else
+      if y>25 then
+        if x>= 7 and x<=153 then
+		    if x<=7*2-1 then 
+		      if key(0)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*3-1 then 
+		      if key(1)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*4-1 then 
+		      if key(2)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*5-1 then
+		      if key(3)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*6-1 then
+		      if key(4)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*7-1 then
+		      if key(5)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*8-1 then
+		      if key(6)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*9-1 then
+		      if key(7)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*10-1 then
+		      if key(8)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*11-1 then
+		      if key(9)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*12-1 then
+		      if key(10)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*13-1 then
+		      if key(11)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*14-1 then
+		      if key(12)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*15-1 then
+		      if key(13)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*16-1 then
+		      if key(14)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*17-1 then
+		      if key(15)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*18-1 then
+		      if key(16)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*19-1 then
+		      if key(17)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    elsif x <= 7*20-1 then
+		      if key(18)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    elsif x <= 7*21-1 then
+		      if key(19)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_b;
+			   end if;
+		    else
+		      if key(20)='1' then vga_out_tmp <= key_c;
+			   else vga_out_tmp <= key_w;
+			   end if;
+		    end if;
+		  else vga_out_tmp <= vga_out_ram;
+	     end if;
+	    else vga_out_tmp <= vga_out_ram;
+      end if;
+	 end if;
+  end process rdcl;
+vout:process(vga_clk)
+  begin
+    if vga_clk'event and vga_clk='1' then
+      vga_out <= vga_out_tmp;
+    end if;
+  end process vout;
+end architecture behav;
