@@ -9,8 +9,8 @@ Eano——基于FPGA的智能电子琴
 林政慷、余一凡
 
 ### 项目分工
---林政慷：系统控制方案设计（模块名：click2scroll、click2vol、key2click、key2swich、keycheck、or_sp、mus_fre_ctrl）、系统各时钟模块（模块名：clock_fix、clock_music、SEGclk、SEGclkf、PLL）、加载定时器模块（模块名：delay）、计时器模块（模块名：timer）、板载LED控制模块（模块名：LED_modectrl）、蜂鸣器发声模块（模块名：key2sound）、音乐喷泉模块（模块名：key2spring、springdri）、显示屏相关模块（模块名：VGA_1280x720、VGA_1920x1080、vga_address、vga_color_out、vga_mode、ROM）、数码管滚动显示相关模块（模块名：SEG、SEG_datactrl、SEGdata、SEGdisp、SEGflow、SEGinpu）、板上LED模块（动作库部分，模块名：LEDmode）设计设计、仿真、调试，所有模块的板级测试，顶层模块设计，管脚配置与整体系统联调，系统实机演示，系统预设计
---余一凡：PS/2键盘模块（模块名：ps2_keyboard_driver、piano_keyboard）设计、仿真、代码调试
+林政慷：系统控制方案设计（模块名：click2scroll、click2vol、key2click、key2swich、keycheck、or_sp、mus_fre_ctrl）、系统各时钟模块（模块名：clock_fix、clock_music、SEGclk、SEGclkf、PLL）、加载定时器模块（模块名：delay）、计时器模块（模块名：timer）、板载LED控制模块（模块名：LED_modectrl）、蜂鸣器发声模块（模块名：key2sound）、音乐喷泉模块（模块名：key2spring、springdri）、显示屏相关模块（模块名：VGA_1280x720、VGA_1920x1080、vga_address、vga_color_out、vga_mode、ROM）、数码管滚动显示相关模块（模块名：SEG、SEG_datactrl、SEGdata、SEGdisp、SEGflow、SEGinpu）、板上LED模块（动作库部分，模块名：LEDmode）设计设计、仿真、调试，所有模块的板级测试，顶层模块设计，管脚配置与整体系统联调，系统实机演示，系统预设计\n
+余一凡：PS/2键盘模块（模块名：ps2_keyboard_driver、piano_keyboard）设计、仿真、代码调试
 
 ### 仓库构成说明
 'SystemDemo.mp4'是整个系统功能的演示，展示整个系统完整的功能，视频分成两部分，前半部分（00:00-04:56）为系统功能的展示，后半部分（04:56-7:10）为整体系统的代码展示，系统功能较为复杂，展示可能有些紧凑。
