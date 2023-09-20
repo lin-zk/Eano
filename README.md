@@ -30,6 +30,9 @@ Eano——基于FPGA的智能电子琴
 余一凡：
 - PS/2键盘模块（模块名：ps2_keyboard_driver、piano_keyboard）设计、仿真、代码调试
 
+### 顶层设计
+![顶层设计]([https://github.com/lin-zk/SmartFilling/blob/main/SmartFilling_project/picture/icon/main.png](https://github.com/lin-zk/Eano/blob/main/Top-levelModuleDesign.png))
+
 ### 仓库构成说明
 - 'SystemDemo.mp4'是整个系统功能的演示，展示整个系统完整的功能。视频分成两部分，前半部分（00:00-04:56）为系统功能的展示，后半部分（04:56-7:10）为整体系统的代码展示。系统功能较为复杂，展示可能有些紧凑。
 - 文件夹'DemoVideo'中的五个视频简单展示了用本系统演奏音乐的效果，同时也展现了在用户没有显示屏情况下也能非常方便地使用本系统，证明了本系统的便携性，可以适用于多种场景。
@@ -86,6 +89,9 @@ Lin Zhengkang:
 
 Yu Yifan:
 - PS/2 keyboard module (Module names: ps2_keyboard_driver, piano_keyboard) design, simulation, code debugging
+
+### Top-level Module Design
+![Top-levelModuleDesign]([https://github.com/lin-zk/SmartFilling/blob/main/SmartFilling_project/picture/icon/main.png](https://github.com/lin-zk/Eano/blob/main/Top-levelModuleDesign.png))
 
 ### Repository Composition Description
 The 'SystemDemo.mp4' file is a demonstration of the complete functionality of the system. The video is divided into two parts. The first part (00:00-04:56) demonstrates the system's functionality, and the second part (04:56-7:10) showcases the system's code. The system functionality is complex, and the demonstration may be compact.
